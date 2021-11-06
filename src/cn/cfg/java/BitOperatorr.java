@@ -37,6 +37,27 @@ public class BitOperatorr {
 		
 		
 		
+		System.out.println(1>>2);
+		//相当于1右移2位,
+		//0001 向右移动两位成为0000
+		//等价于1/2/2
+		System.out.println(1<<2);
+		//相当于1左移2位,
+		//0001 向右移动两位成为0100 
+		//等价于 1*2*2
+		
+		
+		System.out.println(-10.5%3);
+		
+		System.out.println(-10.4%3);
+		
+		
+		char ch = 50;
+		System.out.println(ch);
+		
+		
+		
+		
 		
 	}
 }
