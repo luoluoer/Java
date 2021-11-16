@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"cn.cfg.java","l":"JavaDocTest"},{"l":"所有类","u":"allclasses-index.html"}];updateSearchResults();

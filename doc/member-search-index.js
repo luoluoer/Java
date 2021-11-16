@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"cn.cfg.java","c":"JavaDocTest","l":"JavaDocTest()","u":"%3Cinit%3E()"}];updateSearchResults();
