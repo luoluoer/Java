@@ -2,7 +2,10 @@
 package cn.cfg.java;
 
 /**
-* 这是文档注释
+* 正常的冒泡排序  假如有n个数字  那么总共需要进行n-1轮比较
+* 第一次比较 需要比较n-1次
+* 第二次比较  需要进行 n-2次
+* 第三次比较 需要进行n-3次
 * @author 作者
 * @version 创建时间：2021年11月9日 下午9:38:29
 */
@@ -23,14 +26,14 @@ public class SortMethod {
 					
 				}
 			}
-			System.out.println("第"+(num+1)+"次的比较结果");
+			System.out.println("第"+(num+1)+"轮的比较结果");
 			for(int i = 0;i<arr.length;i++) {
 				System.out.print(arr[i]+"\t");
 			}
 			System.out.println();
-			if (issorted) {
-				break;
-			}
+//			if (issorted) {
+//				break;
+//			}
 		}
 
 

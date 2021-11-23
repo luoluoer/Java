@@ -31,9 +31,7 @@ public class ArrayaddMid {
 				
 				break;
 			}
-			if (i == arr.length-1) {
-				addarr[i+1] = insertnum;
-			}
+			
 			
 		}
 		
