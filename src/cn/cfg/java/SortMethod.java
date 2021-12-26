@@ -6,7 +6,7 @@ package cn.cfg.java;
 * 第一次比较 需要比较n-1次
 * 第二次比较  需要进行 n-2次
 * 第三次比较 需要进行n-3次
-* @author 作者
+* @author cfg
 * @version 创建时间：2021年11月9日 下午9:38:29
 */
 public class SortMethod {
@@ -31,7 +31,7 @@ public class SortMethod {
 				System.out.print(arr[i]+"\t");
 			}
 			System.out.println();
-//			if (issorted) {
+//			if (issorted) {  //如果issorted是false 说明   没有进行交换,说明顺序已经正确,可以提前退出循环;
 //				break;
 //			}
 		}
