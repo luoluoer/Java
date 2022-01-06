@@ -3,6 +3,11 @@ package cn.cfg.java.enumtest;
 
 /**
 * 这是文档注释
+* 这里是枚举类总结:
+* 1.是应用enum关键字后不能被继承,因为会隐式的继承Enum类
+* 2.enum实现枚举类,本质仍然是个类,所以可以实现接口
+* 3.enum实现类,如果枚举内容是空,也必须要有分号,否则报错
+* 
 * 这里是为了说明枚举类型,使用季节来说明
 * 相当于Season类,有SPRING SUMMER AUTUMN WINTER对象
 * Season SPRING = new Season("春天","温暖")

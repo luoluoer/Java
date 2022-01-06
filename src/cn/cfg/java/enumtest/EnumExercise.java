@@ -34,7 +34,7 @@ enum Week{
 		// TODO Auto-generated constructor stub
 		this.name = name;
 	}
-	
+	@Override
 	public String toString(){
 		return name;
 	}
