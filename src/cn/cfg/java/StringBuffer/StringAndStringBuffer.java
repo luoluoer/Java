@@ -41,5 +41,9 @@ public class StringAndStringBuffer {
 		System.out.println(sb);
 		//6.length(),返回长度
 		System.out.println(sb.length());
+		String s = null;
+		StringBuffer ss = new StringBuffer();
+		System.out.println("aaaaaaaa");
+		System.out.println(ss.append(s).length());//ss.apend调用了abstractstringbuilder的APPendnull方法,所以长度是4
 	}
 }
