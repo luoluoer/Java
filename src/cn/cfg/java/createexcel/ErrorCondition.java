@@ -9,7 +9,7 @@ public class ErrorCondition {
 		
 	}
 	
-	public ErrorCondition() {
+	public ErrorCondition(String name, String idcard, String status, String errormessage) {
 		// TODO Auto-generated constructor stub
 		this.name = name;
 		this.idcard = idcard;
