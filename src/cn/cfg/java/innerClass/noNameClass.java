@@ -31,7 +31,7 @@ class Outer04{
 		
 		//下面的代码相当于class tiger$1implment IA ,然后重写IA的cry方法
 		/*
-		 class outer94$1 implement IA{
+		 class outer04$1 implement IA{
 		 	public void cry(){System.out.println("老虎叫声呼呼呼");}
 		 }
 		  */
