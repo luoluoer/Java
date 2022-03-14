@@ -1,5 +1,5 @@
 
-package cn.cfg.javacollection;
+package cn.cfg.java.collection;
 
 /**
 * ÕâÊÇÎÄµµ×¢ÊÍ
