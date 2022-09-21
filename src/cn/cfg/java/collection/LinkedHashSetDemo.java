@@ -12,9 +12,9 @@ import java.util.Set;
 * 子啊添加一个元素时,先求hash值,再求索引,确定该元素在table的位置
 * 然后将添加的元素加入到双向链表(如果已经存在,那么不添加)
 * tail.next = newElement
-* newElement.prev = tail 
+* newElement.prev = tail
 * tail = newElement
-* 这样的话,我们遍历LinkedHashSet也能确保插入顺序和遍历顺序一致 
+* 这样的话,我们遍历LinkedHashSet也能确保插入顺序和遍历顺序一致
 * @author 柴方贵
 * @version 创建时间：2022年3月14日 下午10:14:40
 */

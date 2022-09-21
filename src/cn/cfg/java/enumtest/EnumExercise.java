@@ -9,6 +9,7 @@ package cn.cfg.java.enumtest;
 public class EnumExercise {
 	public static void main(String[] args) {
 		Week[] weeks = Week.values();
+		System.out.println(weeks);
 		for(Week week : weeks) {
 			System.out.println(week);
 		}
