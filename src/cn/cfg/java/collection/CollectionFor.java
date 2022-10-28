@@ -22,7 +22,7 @@ public class CollectionFor {
 		
 		//增强for本质上就是一个迭代器,可以应用数组和集合
 		for(Object book:col) {
-			System.out.println(book);
+			System.out.println("book:"+book);
 			Book b1 = (Book)book;
 			System.out.println(b1.getName());
 		}

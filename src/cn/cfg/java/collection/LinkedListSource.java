@@ -49,5 +49,11 @@ public class LinkedListSource {
 			System.out.println(obj);
 		}
 		
+		Iterator it = linkedlist.iterator();
+		while(it.hasNext()) {
+			Object o = it.next();
+			System.out.println(o);
+		}
+		
 	}
 }

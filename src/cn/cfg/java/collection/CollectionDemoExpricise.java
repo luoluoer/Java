@@ -28,6 +28,14 @@ class Dog {
 	public String toString() {
 		return "Dog [name=" + name + ", age=" + age + "]";
 	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getAge() {
+		return age;
+	}
 	
 }
 
@@ -48,6 +56,11 @@ public class CollectionDemoExpricise {
 			Object d = it.next();//必须用Object接收,后面再学习原因
 			System.out.println(d);
 			
+		}
+		
+		for(Object dog:list) {
+			System.out.println(dog);
+			System.out.println(((Dog) dog).getName());
 		}
 		
 	}

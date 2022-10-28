@@ -34,7 +34,7 @@ public class HashSetStructureDemo {
  * 3.找到存储数据表table,看这个索引位置是否已经存放元素
  * 4.如果没有直接加入
  * 5.如果有,调用equals方法比较,如果 相同,放弃添加,如果不同,则添加到最后
- * 6.Java8中,如果一条链表的袁术个数到达 TREEIFY_THRESHOLD(默认8),并且table的大小>=MIN_TREEIFYY_CAPPACITY(摸摸人64),就会进行树化
+ * 6.Java8中,如果一条链表的元素个数到达 TREEIFY_THRESHOLD(默认8),并且table的大小>=MIN_TREEIFYY_CAPPACITY(摸摸人64),就会进行树化
  * */
 
 

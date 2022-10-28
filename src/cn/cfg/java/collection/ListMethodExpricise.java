@@ -35,6 +35,10 @@ public class ListMethodExpricise {
 			Object obj = it.next();
 			System.out.println(obj);
 		}
+		//±éÀú·½·¨3
+		for(Object o :list) {
+			System.out.println(o);
+		}
 		
 	}
 }

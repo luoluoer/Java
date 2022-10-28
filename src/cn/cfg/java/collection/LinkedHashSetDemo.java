@@ -5,11 +5,11 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 /**
- * LinkedHashSet底层维护的是一个LinkedHashMap,这点与HashSet不通
+ * LinkedHashSet底层维护的是一个LinkedHashMap,这点与HashSet不同
 * LinkedHashSet是双向的,基本上相当于是HashSet添加了双向链表
 * 在LinkedHashSet中维护了一个Hash表和双向链表(LinkedHashSet有head和tail)
-* 没一个节点有before和after属性,这样可以形成双向链表
-* 子啊添加一个元素时,先求hash值,再求索引,确定该元素在table的位置
+* 每一个节点有before和after属性,这样可以形成双向链表
+* 在添加一个元素时,先求hash值,再求索引,确定该元素在table的位置
 * 然后将添加的元素加入到双向链表(如果已经存在,那么不添加)
 * tail.next = newElement
 * newElement.prev = tail
